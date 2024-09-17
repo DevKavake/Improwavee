@@ -4,7 +4,7 @@ namespace Improwave.Web.Areas.Admin.Controllers;
 
 public class AdminController : Controller
 {
-    // GET
+    [Area("Admin")]
     public IActionResult Index()
     {
         return View();

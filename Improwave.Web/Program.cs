@@ -12,7 +12,7 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<WaveContext>(options =>
 {
-    options.UseSqlServer(builder.Configuration.GetConnectionString("EShopConnectionString"));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("WaveConnectionString"));
 });
 
 #endregion
@@ -59,7 +59,7 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "areas",
-    pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+    pattern: "{area:exists}/{controller=Admin}/{action=Index}/{id?}");
 
 app.MapControllerRoute(
     name: "default",
