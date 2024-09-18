@@ -10,4 +10,8 @@
       <ProjectReference Include="..\Improwave.Data\Improwave.Data.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Enums\" />
+    </ItemGroup>
+
 </Project>

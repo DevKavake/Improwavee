@@ -11,4 +11,9 @@
       <ProjectReference Include="..\Improwave.Domain\Improwave.Domain.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+      <PackageReference Include="SixLabors.ImageSharp" Version="3.1.5" />
+    </ItemGroup>
+
 </Project>
