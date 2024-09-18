@@ -1,3 +1,4 @@
+using Improwave.Domain.Models.User;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Identity.Client;
 
@@ -15,7 +16,7 @@ public class WaveContext : DbContext
 
     #region Db Sets
 
-    
+    public DbSet<User> Users { get; set; }
 
     #endregion
 }

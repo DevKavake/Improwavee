@@ -7,7 +7,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Improwave.Data\Improwave.Data.csproj" />
       <ProjectReference Include="..\Improwave.Domain\Improwave.Domain.csproj" />
     </ItemGroup>
 

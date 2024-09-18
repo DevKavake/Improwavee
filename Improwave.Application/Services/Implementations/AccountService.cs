@@ -6,7 +6,7 @@ public class AccountService
 {
     #region Fileds
 
-    private readonly IAccountRepository _accountRepository;
+    private readonly IUserRepository _userRepository;
 
     #endregion
 
